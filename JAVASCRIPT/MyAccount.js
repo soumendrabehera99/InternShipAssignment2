@@ -36,17 +36,17 @@ function editName(){
 }
 
 function editEmail(){
-    let currentName = document.getElementById("name").value;
+    let currentName = document.getElementById("email").value;
     let newName= currentName;
     while(1){
-        newName=prompt("Enter your Date of Birth",newName);
+        newName=prompt("Enter your new Email",newName);
         if(newName !== currentName){
             break;
         }else{
             alert("Current Email must not be same as new Email.\n Otherwise press cancel");
         }
     }
-        document.getElementById("name").value=newName;
+        document.getElementById("email").value=newName;
 }
 
 
@@ -54,14 +54,14 @@ function editPhone(){
     let currentName = document.getElementById("phone").value;
     let newName= currentName;
     while(1){
-        newName=prompt("Enter your Date of Birth",newName);
+        newName=prompt("Enter your new Phone Number",newName);
         if(newName !== currentName){
             break;
         }else{
             alert("Current Phone number must not be same as new Number.\n Otherwise press cancel");
         }
     }
-        document.getElementById("dob").value=newName;
+        document.getElementById("phone").value=newName;
 }
 
 
