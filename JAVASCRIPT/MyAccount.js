@@ -1,15 +1,25 @@
 
+// const profilePic = document.getElementById("profile");
+//       const inputFile = document.getElementById("inputType");
+    
+//       document.getElementById("pencil").onclick = () => {
+//         inputFile.click();
+//       };
+//       inputFile.onchange = () => {
+//         if (inputFile.files && inputFile.files[0]) {
+//           profilePic.src = URL.createObjectURL(inputFile.files[0]);
+//         }
+//       };
+const profilePic = document.getElementById("pic");
+const inputFile = document.getElementById("inputType");
 function editPicture(){
-    let currentName = document.getElementById("pic").value;
-    let newName= currentName;
-        
-        // if(newName !== currentName){
-        //     break;
-        // }else{
-        //     alert("Current Picture must not be same as new picture.\n Otherwise press cancel");
-        // }
-        // document.getElementById("pic").value=newName;
+        inputFile.click();
 }
+inputFile.onchange = () =>{
+    if(inputFile.files){
+        profilePic.src = URL.createObjectURL(inputFile.files[0]);
+    }
+};
 
 function editName(){
     let currentName = document.getElementById("name").value;

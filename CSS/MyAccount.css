@@ -86,6 +86,7 @@
 .ImageAdd img{
     border: 2px solid;
     width: 200px;
+    height: 200px;
     border-radius: 20px;
 }
 .ImageAdd a{

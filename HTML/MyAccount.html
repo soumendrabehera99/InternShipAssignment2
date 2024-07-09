@@ -52,14 +52,15 @@
         </div>
         <div class="ImageAndForm">
             <div class="ImageAdd">
-                <img src="logo1.png" alt="" onclick="editPicture()" name="pic" id="pic">
+                <img src="logo1.png" alt="" " name="pic" id="pic">
                 <input
                   type="file"
                   id="inputType"
+                  multiple="false"
                   accept="image/*"
                   style="display: none"
                 />
-                <a href="#Edit" class="fa fa-pencil"></a>
+                <a href="#Edit" class="fa fa-pencil" id="editpic" onclick="editPicture()"></a>
             </div>
         </div>
         <div class="DetailsForm">
