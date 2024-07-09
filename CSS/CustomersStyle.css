@@ -1,9 +1,10 @@
 .bodyStyle{
     display: flex;
     margin: 0;
+    background-color: rgb(214, 239, 216);
 }
 .NavigationBar{
-    background-color: aquamarine;
+    background-color: rgb(26, 83, 25);
     height: 100%;
     width: 200px;
     position: fixed;
@@ -45,7 +46,7 @@
 .searchBarDiv{
     position: fixed;
     display: flex;
-    background-color:aquamarine ;
+    background-color:rgb(26, 83, 25) ;
     width: 87vw;
     height: 70px;
     justify-content: right;
@@ -75,8 +76,9 @@
     color: white;
 }
 .tableDiv{
-    background-color: bisque;
+    background-color: rgb(128, 175, 129);
     margin-left: 200px;
+    padding: 10px;
     margin-top: 70px;
 }
 table{
@@ -85,7 +87,7 @@ table{
     empty-cells: show;
 }
 th{
-    background-color: azure;
+    background-color: rgb(80, 141, 78);
     height: 70px;
 }
 td{
@@ -97,7 +99,7 @@ table,th,td{
     border-collapse: collapse;
 }
 tr:hover{
-    background-color: coral;
+    background-color: rgb(214, 239, 216);
     color: black;
 }
 /* tr:nth-child(even){

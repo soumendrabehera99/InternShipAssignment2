@@ -1,9 +1,10 @@
 .bodyStyle{
+    background-color: rgb(214, 239, 216);
     display: flex;
     margin: 0;
 }
 .NavigationBar{
-    background-color: aquamarine;
+    background-color: rgb(26, 83, 25);
     height: 100%;
     width: 200px;
     position: fixed;
@@ -45,7 +46,7 @@
 .searchBarDiv{
     position: fixed;
     display: flex;
-    background-color:aquamarine ;
+    background-color:rgb(26, 83, 25) ;
     width: 87vw;
     height: 70px;
     justify-content: right;
@@ -82,21 +83,21 @@
     margin-bottom: 0px;
 }
 .diva{
-    background-color: aquamarine;
+    background-color: rgb(128, 175, 129);
     padding: 20px;
     border-radius: 10px;
     margin-left: 10px;
     margin-top: 10px;
 }
 .divb{
-    background-color: aquamarine;
+    background-color: rgb(128, 175, 129);
     padding: 20px;
     border-radius: 10px;
     margin-left: 10px;
     margin-top: 10px; 
 }
 .divc{
-    background-color: aquamarine;
+    background-color: rgb(128, 175, 129);
     padding: 20px;
     border-radius: 10px;
     margin-left: 10px;
@@ -104,7 +105,7 @@
     margin-right: 10px;
 }
 .tableDiv{
-    background-color: bisque;
+    background-color: rgb(80, 141, 78);
     margin-left: 210px;
     margin-top: 20px;
     border: 1px solid;
@@ -124,6 +125,7 @@ th{
     height: 70px;
 }
 td{
+    background-color: rgb(128, 175, 129);
     text-align: center;
     height: 47px;
 }
@@ -131,12 +133,8 @@ table,th,td{
     border: 1px solid;
     border-collapse: collapse;
 }
-tr:hover{
-    background-color: coral;
-    color: black;
-}
 .mediaDiv{
-    background-color: bisque;
+    background-color: rgb(80, 141, 78);
     margin-left: 210px;
     margin-top: 20px;
     border: 1px solid;
@@ -155,7 +153,7 @@ tr:hover{
     margin-bottom: 10px;
 }
 .divd{
-    background-color: aquamarine;
+    background-color: rgb(128, 175, 129);
     padding: 20px;
     border-radius: 10px;
     margin-top: 10px;

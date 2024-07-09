@@ -1,9 +1,10 @@
 .bodyStyle{
+    background-color: rgb(214, 239, 216);
     display: flex;
     margin: 0;
 }
 .NavigationBar{
-    background-color: aquamarine;
+    background-color: rgb(26, 83, 25);
     height: 100%;
     width: 200px;
     position: fixed;
@@ -46,7 +47,7 @@
 .searchBarDiv{
     position: fixed;
     display: flex;
-    background-color:aquamarine ;
+    background-color:rgb(26, 83, 25) ;
     width: 87vw;
     height: 70px;
     justify-content: right;
@@ -76,7 +77,7 @@
     color: white;
 }
 .ImageAndForm{
-    margin-left: 210px;
+    margin-left: 260px;
     margin-top: 80px;
 }
 .ImageAdd{
@@ -98,7 +99,7 @@
     color: black;
 }
 .DetailsForm{
-    margin-left: 210px;
+    margin-left: 250px;
     margin-top: 10px;
 }
 .FormDiv{
@@ -106,6 +107,7 @@
     padding: 10px;
 }
 .FormDiv input{
+    background-color: rgb(128, 175, 129);
     width: 300px;
     height: 30px;
     border-radius: 10px;
