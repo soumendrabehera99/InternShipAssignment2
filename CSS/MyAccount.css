@@ -1,0 +1,142 @@
+.bodyStyle{
+    display: flex;
+    margin: 0;
+}
+.NavigationBar{
+    background-color: aquamarine;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+}
+.NavigationBar a{
+    color: black;
+    border: 2px solid black ;
+    padding: 12px; 
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 2px;
+    font-size: 20px ;
+    /* overflow: hidden; */
+}
+.NavigationBar a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.activeProperty a{
+    background-color: black;
+    color: aliceblue;
+}  
+.logoandCompanyname{
+    display: flex;
+}
+.logoandCompanyname img{
+   height: 50px;
+   border-radius: 50px;
+}
+.myAccount{
+    margin-top: 55vh;
+}
+.SearchBarandTable{
+    width: 100%;
+    margin-right: 0px;
+    /* margin-left: calc(100%-200px); */
+}
+.searchBarDiv{
+    position: fixed;
+    display: flex;
+    background-color:aquamarine ;
+    width: 87vw;
+    height: 70px;
+    justify-content: right;
+    align-items: center;
+    margin-left: 200px;
+}
+.searchBarDivDiv{
+    display: flex;
+    border: 2px solid black;
+    margin-right: 23px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.searchBarDivDiv input{
+    height: 35px;
+    width: 250px;
+}
+.searchBarDivDiv button{
+    margin-left: 0;
+    height: 35px;
+}
+.searchBarDivDiv button img{
+    width: 17px;
+}
+.searchBarDivDiv button:hover{
+    background-color: black;
+    color: white;
+}
+.ImageAndForm{
+    margin-left: 210px;
+    margin-top: 80px;
+}
+.ImageAdd{
+    display: flex;
+    align-items: baseline;
+}
+.ImageAdd img{
+    border: 2px solid;
+    width: 200px;
+    border-radius: 20px;
+}
+.ImageAdd a{
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 10px;
+    width: 20px;
+    text-decoration: none;
+    color: black;
+}
+.DetailsForm{
+    margin-left: 210px;
+    margin-top: 10px;
+}
+.FormDiv{
+    margin-top: 9px;
+    padding: 10px;
+}
+.FormDiv input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.FormDiv a{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+}
+.FormDiv a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.buttonAlign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin-top: 10px;
+}
+.buttonAlign input{
+    margin-left: 50px;
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+}
+#save{
+    background-color: green;
+
+}
+#cancel{
+    background-color: red;
+}

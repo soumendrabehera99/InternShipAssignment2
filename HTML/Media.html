@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="../CSS/mediaStyle.css">
+</head>
+<body class="bodyStyle">
+    <div>
+        <nav class="NavigationBar">
+            <div>
+                <div class="logoandCompanyname">
+                    <img src="logo1.png" alt="logo png">
+                    <h1>WorkSpace</h1>
+                </div>
+                <!--Home-->
+                <div>
+                    <a href="index.html"> <i class="fa fa-home"></i> 
+                    <b>Home</b></a>
+                </div>
+                <!-- Customers -->
+                <div>
+                    <a href="Customers.html"><i class="fas fa-user-friends"></i><b>Customers</b></a>
+                </div>
+                <!-- Departments -->
+                <div >
+                    <a href="Departments.html">
+                        <i class="far fa-address-card"></i>
+                        <b>Departments</b></a>
+                </div>
+                <!-- Media -->
+                <div class="activeProperty">
+                    <a href="Media.html"><i class="fas fa-images"></i><b>Media</b></a>
+                </div>
+            </div>
+            <!-- my account tag -->
+            <div class="myAccount">
+                <a href="MyAccount.html"><i class="fas fa-user-alt"></i> <b>My Account</b></a>
+             </div>
+        </nav>
+    </div>
+
+    <div class="SearchBarandTable">
+        <!-- search bar division -->
+     <div class="searchBarDiv">
+        <div class="searchBarDivDiv">
+            <input type="search" name="search" id="search" placeholder="search in Home">
+            <button><img src="search.png" alt="search"></button>
+        </div>
+     </div>
+     <div class="MediaImages">
+        <h2>IMAGES</h2>
+     </div>
+     <div class="MediaImagesAdd">
+        <img src="nature1.jpg" alt="" class="MediaImagesAddSize">
+        <img src="nature2.avif" alt="" class="MediaImagesAddSize">
+        <img src="nature3.jpg" alt="" class="MediaImagesAddSize">
+        <img src="nature4.jpg" alt="" class="MediaImagesAddSize">
+        <img src="nature5.avif" alt="" class="MediaImagesAddSize">
+        <img src="nature6.webp" alt="" class="MediaImagesAddSize">
+     </div>
+     <div class="MediaVideo">
+        <h2>VIDEO</h2>
+     </div>
+     <div class="MediaVideoAdd">
+        <video src="nature1.mp4" class="MediaVideoAddSize" controls></video>
+        <video src="nature2.mp4" class="MediaVideoAddSize" controls></video>
+        <video src="nature3.mp4" class="MediaVideoAddSize" controls></video>
+     </div>
+
+     <div class="MediaAudio">
+        <h2>AUDIO</h2>
+     </div>
+     <div class="MediaAudioAdd">
+            <audio  src="bird1.mp3" controls class="MediaAudioAddSize"></audio>
+            <audio src="evening-bird.mp3" controls class="MediaAudioAddSize"></audio>
+            <audio src="rainyday.mp3" controls class="MediaAudioAddSize"></audio>
+     </div>
+    </div>
+</body>
+</html>

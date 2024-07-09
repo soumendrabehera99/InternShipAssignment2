@@ -1,0 +1,166 @@
+.bodyStyle{
+    display: flex;
+    margin: 0;
+}
+.NavigationBar{
+    background-color: aquamarine;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+}
+.NavigationBar a{
+    color: black;
+    border: 2px solid black ;
+    padding: 12px; 
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 2px;
+    font-size: 20px ;
+    /* overflow: hidden; */
+}
+.NavigationBar a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.activeProperty a{
+    background-color: black;
+    color: aliceblue;
+}  
+.logoandCompanyname{
+    display: flex;
+}
+.logoandCompanyname img{
+   height: 50px;
+   border-radius: 50px;
+}
+.myAccount{
+    margin-top: 55vh;
+}
+.SearchBarandTable{
+    width: 100%;
+    /* margin-left: calc(100%-200px); */
+}
+.searchBarDiv{
+    position: fixed;
+    display: flex;
+    background-color:aquamarine ;
+    width: 87vw;
+    height: 70px;
+    justify-content: right;
+    align-items: center;
+    margin-left: 200px;
+}
+.searchBarDivDiv{
+    display: flex;
+    border: 2px solid black;
+    margin-right: 23px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.searchBarDivDiv input{
+    height: 35px;
+    width: 250px;
+}
+.searchBarDivDiv button{
+    margin-left: 0;
+    height: 35px;
+}
+.searchBarDivDiv button img{
+    width: 17px;
+}
+.searchBarDivDiv button:hover{
+    background-color: black;
+    color: white;
+}
+.Content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-bottom: 0px;
+}
+.diva{
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.divb{
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px; 
+}
+.divc{
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.tableDiv{
+    background-color: bisque;
+    margin-left: 210px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 10px 10px 0px 0px;
+}
+.tableDiv h1{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+table{
+    width: 100%;
+    height: 100%;
+    empty-cells: show;
+}
+th{
+    height: 70px;
+}
+td{
+    text-align: center;
+    height: 47px;
+}
+table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+tr:hover{
+    background-color: coral;
+    color: black;
+}
+.mediaDiv{
+    background-color: bisque;
+    margin-left: 210px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.mediaDiv h1{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.mediaContent{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+.divd{
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+/* tr:nth-child(even){
+    background-color: indianred;
+} */

@@ -1,0 +1,154 @@
+.bodyStyle{
+    display: flex;
+    margin: 0;
+}
+.NavigationBar{
+    background-color: aquamarine;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+}
+.NavigationBar a{
+    color: black;
+    border: 2px solid black ;
+    padding: 12px; 
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 2px;
+    font-size: 20px ;
+    /* overflow: hidden; */
+}
+.NavigationBar a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.activeProperty a{
+    background-color: black;
+    color: aliceblue;
+}  
+.logoandCompanyname{
+    display: flex;
+}
+.logoandCompanyname img{
+   height: 50px;
+   border-radius: 50px;
+}
+.myAccount{
+    margin-top: 55vh;
+}
+.SearchBarandTable{
+    width: 100%;
+    /* margin-left: calc(100%-200px); */
+}
+.searchBarDiv{
+    position: fixed;
+    display: flex;
+    background-color:aquamarine ;
+    width: 87vw;
+    height: 70px;
+    justify-content: right;
+    align-items: center;
+    margin-left: 200px;
+}
+.searchBarDivDiv{
+    display: flex;
+    border: 2px solid black;
+    margin-right: 23px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.searchBarDivDiv input{
+    height: 35px;
+    width: 250px;
+}
+.searchBarDivDiv button{
+    margin-left: 0;
+    height: 35px;
+}
+.searchBarDivDiv button img{
+    width: 17px;
+}
+.searchBarDivDiv button:hover{
+    background-color: black;
+    color: white;
+}
+.MediaImages{
+    display: flex;
+    background-color: bisque;
+    margin-left: 200px;
+    margin-top: 70px;
+    border: 1px solid;
+    border-radius: 3px;
+    height: 40px;
+    align-items: center;
+    padding-left: 10px;
+}
+.MediaImagesAdd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-rows: auto auto; */
+}
+.MediaImagesAddSize{
+    width: 300px;
+    padding: 3px;
+    border: 2px solid;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.MediaVideo{
+    display: flex;
+    background-color: bisque;
+    margin-left: 200px;
+    border: 1px solid;
+    border-radius: 3px;
+    height: 40px;
+    align-items: center;
+    padding-left: 10px;
+}
+.MediaVideoAdd{
+    display: flex;
+    justify-content: space-between;
+    /* grid-template-columns: auto auto auto; */
+    margin-left: 200px;
+}
+.MediaVideoAddSize{
+    width: 300px;
+    margin: 20px;
+    /* height: 300px; */
+    padding: 3px;
+    border: 2px solid;
+    border-radius: 5px;
+
+}
+.MediaAudio{
+    display: flex;
+    background-color: bisque;
+    margin-left: 200px;
+    border: 1px solid;
+    border-radius: 3px;
+    height: 40px;
+    align-items: center;
+    padding-left: 10px;
+}
+.MediaAudioAdd{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 200px;
+}
+.MediaAudioAddSize{
+    width: 300px;
+    margin: 20px;
+    /* height: 300px; */
+    padding: 3px;
+    border: 2px solid;
+    border-radius: 5px;
+}
